@@ -10,6 +10,8 @@ $(function() {
                     $("#flag").attr('src',data_country[0].flag);
                     $("#country").html(data_country[0].name);                   
                 });
+            }else{
+            	alert("Please, reload the page !");
             }
         });
     });
