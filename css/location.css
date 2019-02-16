@@ -1,0 +1,53 @@
+html,body {
+	height: 100%;
+}
+
+body.location-page {
+	background-color: #f7f9fb;
+	font-size: 14px;
+}
+
+.location-page .brand {
+	margin: 20px auto;
+}
+
+.location-page .card-wrapper {
+	width: 400px;
+}
+
+.location-page .card {
+	border-color: transparent;
+	box-shadow: 0 4px 8px rgba(0,0,0,.05);
+}
+
+.location-page .card.fat {
+	padding: 10px;
+}
+
+.location-page .card .card-title {
+	margin-bottom: 30px;
+}
+
+.card-body{
+	text-align: center;
+}
+#country{
+	text-transform: uppercase;
+	font-weight: bold;
+}
+@media screen and (max-width: 425px) {
+	.location-page .card-wrapper {
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.location-page .card.fat {
+		padding: 0;
+	}
+
+	.location-page .card.fat .card-body {
+		padding: 15px;
+	}
+}
