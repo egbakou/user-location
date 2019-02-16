@@ -1,5 +1,5 @@
 $(function() {
-    $.getJSON("https://jsonip.com", function (data_ip) {
+    $.getJSON("https://api.ipify.org/?format=json", function (data_ip) {
 
         var ip = data_ip.ip;
 
